@@ -99,50 +99,50 @@
 Exemplo de data for transaction
  ```
   @data = { numpedido:'01',
-			transaction_type:'a_vista',     
-			total:'100',
-			installments:'1',
-		    order:'teste',
-			nrcard:'4654564546556',
-			cvc:'454',
-			month:'02', 
-			year:'2017',
-			carrier:'teste',
-			rateshipping:'', 
-			distributor:'master',
-			concentrator:'',
-			input:'', 
-			pax1:'',
-			pax2:'',
-			pax3:'',
-			pax4:'',
-			numdoc1:'',
-		    numdoc2:'',
-			numdoc3:'',
-			numdoc4:''
-        }
+	    transaction_type:'a_vista',     
+	    total:'100',
+	    installments:'1',
+            order:'teste',
+	    nrcard:'4654564546556',
+	    cvc:'454',
+            month:'02', 
+	    year:'2017',
+	    carrier:'teste',
+	    rateshipping:'', 
+	    distributor:'master',
+	    concentrator:'',
+	    input:'', 
+	    pax1:'',
+	    pax2:'',
+	    pax3:'',
+	    pax4:'',
+	    numdoc1:'',
+            numdoc2:'',
+	    numdoc3:'',
+	    numdoc4:''
+          }
 ``` 
    Example of a date for a reverse
 ```  
    @data= { total:"1000",
-		 	numcv:'4201',
-		  	numautor:'2147',
-			concentrator:nil
-         }  
+	    numcv:'4201',
+	    numautor:'2147',
+	    concentrator:nil
+          }  
 
 ``` 
    Example of a date for a pre-authorization
   
    ``` 
    @data = { distributor:"1000",
-			 data:"20161105",
-			 transaction:"705",        
-			 numautor:"2981",
-			 numcv:"2614",
-			 parcelas:"1",
-			 transorig:"BRA",
-			 total:'0' 
-      		}       
+	     data:"20161105",
+	     transaction:"705",        
+	     numautor:"2981",
+	     numcv:"2614",
+	     parcelas:"1",
+	     transorig:"BRA",
+	     total:'0' 
+      	   }       
    ``` 
    The parameter date is a hash of parameters that are requested by the Network Card for each type of transaction requested. In case of doubt regarding the data to be passed, follow the link in the manual below.
     [case of doubt](https://www.userede.com.br/pt-BR/Lists/Downloads/Attachments/12/2955-Manual-Komerci_WebService.pdf)
