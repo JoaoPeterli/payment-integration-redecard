@@ -22,7 +22,7 @@
 ```
 
 
-  ##**Lista de End Point**
+  ## Lista de End Point
   Responsible for transaction teste whith Rede Card
    TRANSACTION_TEST
 
@@ -42,7 +42,7 @@
    RECEIPT
                             
 
-  ##**Create Transaction**
+  #### **Create Transaction**
   ```
   filiation="21583129"
   user =' testews'
@@ -57,7 +57,7 @@
   
   ```
 
-  ##**Receiver**
+  ### **Receiver**
   ```
   filiation="21583129"
   user =' testews'
@@ -72,7 +72,7 @@
 
   ```
 
-  ##**Pre-Transaction**
+  ### **Pre-Transaction**
   ```
   filiation="21583129"
   user =' testews'
@@ -87,7 +87,7 @@
 
   ```
 
-  ##**Comments**
+  ### **Comments**
   Here are examples of how data should be passed for submission.
  Example of a date for a transaction, a note, in the parameter of transaction_type it is responsible for the type of transaction. Here is the list of transactions:
    ```    
@@ -97,53 +97,52 @@
      pre_autorizacao 
 ```
 Exemplo de data for transaction
-```
-   @data = {  numpedido:'01',
-					 transaction_type:'a_vista',     
-					 total:'100',
-					 installments:'1',
-					 order:'teste',
-					 nrcard:'4654564546556',
-					 cvc:'454',
-					 month:'02', 
-					 year:'2017',
-					 carrier:'teste',
-					 rateshipping:'', 
-					 distributor:'master',
-					 concentrator:'',
-					 input:'', 
-					 pax1:'',
-					 pax2:'',
-					 pax3:'',
-					 pax4:'',
-					 numdoc1:'',
-					 numdoc2:'',
-					 numdoc3:'',
-					 numdoc4:''
-                  }
- 
-    ``` 
+ ```
+  @data = { numpedido:'01',
+			transaction_type:'a_vista',     
+			total:'100',
+			installments:'1',
+		    order:'teste',
+			nrcard:'4654564546556',
+			cvc:'454',
+			month:'02', 
+			year:'2017',
+			carrier:'teste',
+			rateshipping:'', 
+			distributor:'master',
+			concentrator:'',
+			input:'', 
+			pax1:'',
+			pax2:'',
+			pax3:'',
+			pax4:'',
+			numdoc1:'',
+		    numdoc2:'',
+			numdoc3:'',
+			numdoc4:''
+        }
+``` 
    Example of a date for a reverse
-   ```  
-   @data= {  total:"1000",
-					numcv:'4201',
-					numautor:'2147',
-					concentrator:nil
-                 }  
+```  
+   @data= { total:"1000",
+		 	numcv:'4201',
+		  	numautor:'2147',
+			concentrator:nil
+         }  
 
-   ``` 
+``` 
    Example of a date for a pre-authorization
   
    ``` 
    @data = { distributor:"1000",
-					data:"20161105",
-					transaction:"705",        
-					numautor:"2981",
-					numcv:"2614",
-					parcelas:"1",
-					transorig:"BRA",
-					total:'0' 
-      			  }       
+			 data:"20161105",
+			 transaction:"705",        
+			 numautor:"2981",
+			 numcv:"2614",
+			 parcelas:"1",
+			 transorig:"BRA",
+			 total:'0' 
+      		}       
    ``` 
    The parameter date is a hash of parameters that are requested by the Network Card for each type of transaction requested. In case of doubt regarding the data to be passed, follow the link in the manual below.
     [case of doubt](https://www.userede.com.br/pt-BR/Lists/Downloads/Attachments/12/2955-Manual-Komerci_WebService.pdf)
@@ -153,6 +152,5 @@ Exemplo de data for transaction
 
   To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
- ##Contributing
-
+ ## Contributing
    Bug reports and pull requests are welcome on GitHub at https://github.com/JoaoPeterli/payment-integration-redecard.
