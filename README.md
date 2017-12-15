@@ -13,12 +13,12 @@
 
   And then execute:
 ```
-   $ bundle install
+    bundle install
 ```
   Or install it yourself as:
   
 ```
-   $ gem install payment-integration-redecard
+    gem install payment-integration-redecard
 ```
 
 
@@ -136,7 +136,7 @@ Exemplo de data for transaction
    ``` 
    @data = { distributor:"1000",
 	     data:"20161105",
-	     transaction:"705",        
+	     transaction:"705",
 	     numautor:"2981",
 	     numcv:"2614",
 	     parcelas:"1",
