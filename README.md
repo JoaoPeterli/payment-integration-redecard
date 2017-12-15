@@ -99,28 +99,28 @@
 Exemplo de data for transaction
  ```
   @data = { numpedido:'01',
-	    transaction_type:'a_vista',     
+            transaction_type:'a_vista',
 	    total:'100',
 	    installments:'1',
-            order:'teste',
+	    order:'teste',
 	    nrcard:'4654564546556',
 	    cvc:'454',
-            month:'02', 
+	    month:'02',
 	    year:'2017',
 	    carrier:'teste',
-	    rateshipping:'', 
+	    rateshipping:'',
 	    distributor:'master',
 	    concentrator:'',
-	    input:'', 
+	    input:'',
 	    pax1:'',
 	    pax2:'',
 	    pax3:'',
 	    pax4:'',
 	    numdoc1:'',
-            numdoc2:'',
+	    numdoc2:'',
 	    numdoc3:'',
 	    numdoc4:''
-          }
+	    }
 ``` 
    Example of a date for a reverse
 ```  
