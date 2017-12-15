@@ -20,7 +20,7 @@
 
 
 
-  ## **Lista de End Point**
+  ##**Lista de End Point**
   Responsible for transaction teste whith Rede Card
   TRANSACTION_TEST
 
@@ -40,7 +40,7 @@
   RECEIPT
                             
 
-  ## **Create Transaction**
+  ##**Create Transaction**
                             ```
   require "payment-integration-redecard"
 
@@ -57,7 +57,7 @@
 
   ```
 
-  ## **Receiver**
+  ##**Receiver**
   ```
   require "payment-integration-redecard"
 
@@ -156,7 +156,7 @@
 
   To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
- ## Contributing
+ ##Contributing
 
    Bug reports and pull requests are welcome on GitHub at https://github.com/JoaoPeterli/payment-integration-redecard.
 
