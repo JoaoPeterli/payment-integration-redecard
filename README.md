@@ -99,7 +99,7 @@
 Exemplo de data for transaction
  ```
   @data = { numpedido:'01',
-            transaction_type:'a_vista',
+  	    transaction_type:'a_vista',
 	    total:'100',
 	    installments:'1',
 	    order:'teste',
