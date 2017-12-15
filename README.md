@@ -1,8 +1,8 @@
- # Payment-Integration-Redecard
+ #Payment-Integration-Redecard
 
  This is a way to facilitate transactions with the network-card API with transaction, pre-authorization and reverse payment requests.
 
- ## Installation
+ ##Installation
 
  Add this line to your application's Gemfile:
 
