@@ -12,22 +12,14 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Gem Responsible for integration with redecard}
   spec.description   = %q{This is a way to facilitate transactions with the network-card API with transaction, pre-authorization and reverse payment requests.}
   spec.homepage      = "https://github.com/JoaoPeterli/payment-integration-redecard"
-
+ 
   spec.license           = 'MIT-CMU'
-  # spec.files         = `git ls-files -z`.split("\x0")
+
+  SPEC.FILES         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
-  spec.files=["lib/payment-integration-redecard.rb",
-              "lib/payment-integration-redecard/version.rb",
-              "lib/payment-integration-redecard/transaction.rb",
-              "lib/payment-integration-redecard/reversal_payment.rb",
-              "lib/payment-integration-redecard/reversal_payment_request.rb",
-              "lib/payment-integration-redecard/transaction_request.rb",
-              "lib/payment-integration-redecard/pre_authorize.rb",  
-              "lib/payment-integration-redecard/endpoints_redecard.rb",
-              "lib/payment-integration-redecard/pre_authorize_request.rb"]
-
+ 
 
   spec.add_dependency "bundler", "~> 1.13"
   spec.add_dependency "rake", "~> 10.0"
