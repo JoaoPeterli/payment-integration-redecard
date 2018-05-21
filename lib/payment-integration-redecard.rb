@@ -39,7 +39,6 @@ module PaymentIntegrationRedecard
        @endpoint = endpoint
     end
 
-
     ## Transaction  => Responsible for data transaction
     #
     # total             => Amount
