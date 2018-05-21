@@ -9,6 +9,7 @@ require "payment-integration-redecard/endpoints_redecard.rb"
 require "rest-client"
 require "time"
 
+
 module PaymentIntegrationRedecard
   class RedecardPayment
 
