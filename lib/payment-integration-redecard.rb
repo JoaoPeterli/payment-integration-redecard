@@ -10,9 +10,6 @@ require "rest-client"
 require "time"
 
 
-
-
-
 module PaymentIntegrationRedecard
   class RedecardPayment
 
